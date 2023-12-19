@@ -5,9 +5,90 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+}
+
+
+
+
+* {
+  background-color: rgb(30, 62, 92);
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+Div .header {
+  background-color: rgb(28, 28, 46);
+}
+
+li {
+
+
+  cursor: pointer;
+  color: white;
+  align-content: space-between;
+
+}
+
+ul {
+
+  align-content: space-between;
+  margin: auto;
+  padding-right: 1%;
+  padding-left: 1%;
+}
+
+
+nav {
+  /* background-color: rgb(47, 58, 88); */
+  width: 100%;
+  display: flex;
+  align-content: space-between;
+
+}
+
+li:hover {
+  color: rgb(145, 144, 144);
+}
+
+li:active {
+  color: rgb(187, 187, 187);
+}
+
+.section {
+  display: flex;
+  /* align-content: space-around; */
+  justify-content: space-between;
+  width: 800px;
+  margin: auto;
+  margin-top: 10%
+}
+
+.leftSec {
+  width: 400px;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  /* background-color: brown; */
+  margin-top: 30px;
+
+}
+
+.rightSEc {
+  width: 300px;
+
+}
+
+.bold {
+  color: blueviolet;
+}
+
+img {
+  border-radius: 50%;
+  width: 100%;
+  margin-left: 6%;
 }

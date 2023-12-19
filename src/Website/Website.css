@@ -1,0 +1,26 @@
+nav {
+    background-color: black;
+
+}
+
+ul {
+    display: flex;
+    align-content: space-between;
+
+}
+
+li {
+    color: white;
+    text-decoration: none;
+}
+
+.list {
+    align-content: space-between;
+}
+
+.space {
+
+    display: flex;
+
+
+}
